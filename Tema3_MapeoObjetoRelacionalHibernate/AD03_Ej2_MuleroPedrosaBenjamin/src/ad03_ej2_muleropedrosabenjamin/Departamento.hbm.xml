@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 13-ene-2022 16:46:38 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="ad03_ej2_muleropedrosabenjamin.Departamento" table="departamento" catalog="proyectosx" optimistic-lock="version">
+        <id name="codDepto" type="string">
+            <column name="cod_depto" length="2" />
+            <generator class="assigned" />
+        </id>
+        <property name="nomDepto" type="string">
+            <column name="nom_depto" length="30" />
+        </property>
+        <property name="ciudad" type="string">
+            <column name="ciudad" length="20" />
+        </property>
+        <set name="empleados" table="empleado" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="cod_depto" length="2" />
+            </key>
+            <one-to-many class="ad03_ej2_muleropedrosabenjamin.Empleado" />
+        </set>
+        <set name="proyectos" table="proyecto" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="cod_depto" length="2" />
+            </key>
+            <one-to-many class="ad03_ej2_muleropedrosabenjamin.Proyecto" />
+        </set>
+    </class>
+</hibernate-mapping>
