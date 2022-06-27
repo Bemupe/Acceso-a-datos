@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 12-ene-2022 21:59:34 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class catalog="consultorait" name="pojos_mapping_files.Departamentos" optimistic-lock="version" table="departamentos">
+    <id name="deptNo" type="byte">
+      <column name="dept_no"/>
+      <generator class="assigned"/>
+    </id>
+    <property name="dnombre" type="string">
+      <column length="20" name="dnombre"/>
+    </property>
+    <property name="loc" type="string">
+      <column length="15" name="loc"/>
+    </property>
+    <set fetch="select" inverse="true" lazy="true" name="empleadoses" table="empleados">
+      <key>
+        <column name="dept_no" not-null="true"/>
+      </key>
+      <one-to-many class="pojos_mapping_files.Empleados"/>
+    </set>
+  </class>
+</hibernate-mapping>
