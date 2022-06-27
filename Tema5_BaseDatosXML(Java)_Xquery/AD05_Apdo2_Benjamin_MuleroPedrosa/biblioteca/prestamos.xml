@@ -1,0 +1,74 @@
+<prestamos>
+  <prestamo id="01">
+    <codigoLibro>04</codigoLibro>
+    <codigoUsuario>03</codigoUsuario>
+    <fechaSalida>2020-01-15</fechaSalida>
+    <fechaDevolucion>2020-02-15</fechaDevolucion>
+  </prestamo>
+  <prestamo id="02">
+    <codigoLibro>01</codigoLibro>
+    <codigoUsuario>05</codigoUsuario>
+    <fechaSalida>2020-01-15</fechaSalida>
+    <fechaDevolucion>2020-02-01</fechaDevolucion>
+  </prestamo>
+  <prestamo id="03">
+    <codigoLibro>05</codigoLibro>
+    <codigoUsuario>05</codigoUsuario>
+    <fechaSalida>2020-04-20</fechaSalida>
+    <fechaDevolucion>2020-05-15</fechaDevolucion>
+  </prestamo>
+  <prestamo id="04">
+    <codigoLibro>03</codigoLibro>
+    <codigoUsuario>04</codigoUsuario>
+    <fechaSalida>2020-04-05</fechaSalida>
+    <fechaDevolucion>2020-04-21</fechaDevolucion>
+  </prestamo>
+  <prestamo id="05">
+    <codigoLibro>03</codigoLibro>
+    <codigoUsuario>01</codigoUsuario>
+    <fechaSalida>2020-05-15</fechaSalida>
+    <fechaDevolucion>2020-05-30</fechaDevolucion>
+  </prestamo>
+  <prestamo id="06">
+    <codigoLibro>04</codigoLibro>
+    <codigoUsuario>02</codigoUsuario>
+    <fechaSalida>2020-02-16</fechaSalida>
+    <fechaDevolucion>2020-02-25</fechaDevolucion>
+  </prestamo>
+  <prestamo id="07">
+    <codigoLibro>04</codigoLibro>
+    <codigoUsuario>04</codigoUsuario>
+    <fechaSalida>2020-03-01</fechaSalida>
+    <fechaDevolucion>2020-03-15</fechaDevolucion>
+  </prestamo>
+  <prestamo id="08">
+    <codigoLibro>07</codigoLibro>
+    <codigoUsuario>03</codigoUsuario>
+    <fechaSalida>2020-01-10</fechaSalida>
+    <fechaDevolucion>2020-02-01</fechaDevolucion>
+  </prestamo>
+  <prestamo id="09">
+    <codigoLibro>08</codigoLibro>
+    <codigoUsuario>06</codigoUsuario>
+    <fechaSalida>2020-01-15</fechaSalida>
+    <fechaDevolucion>2020-02-01</fechaDevolucion>
+  </prestamo>
+  <prestamo id="10">
+    <codigoLibro>08</codigoLibro>
+    <codigoUsuario>01</codigoUsuario>
+    <fechaSalida>2020-05-01</fechaSalida>
+    <fechaDevolucion>2020-05-20</fechaDevolucion>
+  </prestamo>
+  <prestamo id="11">
+    <codigoLibro>02</codigoLibro>
+    <codigoUsuario>03</codigoUsuario>
+    <fechaSalida>2019-11-01</fechaSalida>
+    <fechaDevolucion>2019-11-20</fechaDevolucion>
+  </prestamo>
+  <prestamo id="12">
+    <codigoLibro>07</codigoLibro>
+    <codigoUsuario>02</codigoUsuario>
+    <fechaSalida>2019-12-15</fechaSalida>
+    <fechaDevolucion>2019-12-30</fechaDevolucion>
+  </prestamo>
+</prestamos>
